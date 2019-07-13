@@ -1,0 +1,1241 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8795bf5822704bf58f40559f830b429a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_8795bf5822704bf58f40559f830b429a" ></div>
+        
+</body>
+<script>    
+    
+            var map_8795bf5822704bf58f40559f830b429a = L.map(
+                "map_8795bf5822704bf58f40559f830b429a",
+                {
+                    center: [40.7127281, -74.0060152],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7743ac4bf1444d789a16b986c1d85cd7 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+            var circle_marker_b496b78154a74bed98639ddbc7f3c989 = L.circleMarker(
+                [40.82198611816349, -73.81388514428619],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_a7903a4aa84d424ca200b82d1a2647b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7908e070b0d340a6b15bc04f951dae1d = $(`<div id="html_7908e070b0d340a6b15bc04f951dae1d" style="width: 100.0%; height: 100.0%;">Edgewater Park, Bronx</div>`)[0];
+            popup_a7903a4aa84d424ca200b82d1a2647b7.setContent(html_7908e070b0d340a6b15bc04f951dae1d);
+        
+
+        circle_marker_b496b78154a74bed98639ddbc7f3c989.bindPopup(popup_a7903a4aa84d424ca200b82d1a2647b7)
+        ;
+
+        
+    
+    
+            var circle_marker_1e28528fc7e947cea3a89d87a7f3a0ab = L.circleMarker(
+                [40.82198611816349, -73.81388514428619],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_4e8ea2b356824242b1aae1e39eb2eb20 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f5fe1dfac6a405ca1f3c4fd2324b0de = $(`<div id="html_0f5fe1dfac6a405ca1f3c4fd2324b0de" style="width: 100.0%; height: 100.0%;">Edgewater Park, Bronx</div>`)[0];
+            popup_4e8ea2b356824242b1aae1e39eb2eb20.setContent(html_0f5fe1dfac6a405ca1f3c4fd2324b0de);
+        
+
+        circle_marker_1e28528fc7e947cea3a89d87a7f3a0ab.bindPopup(popup_4e8ea2b356824242b1aae1e39eb2eb20)
+        ;
+
+        
+    
+    
+            var circle_marker_ad89eee5b04d4c8b9350c2b8e6a9186e = L.circleMarker(
+                [40.82198611816349, -73.81388514428619],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_3e1b67d5278f4f4dab74cf676475f5dc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c10e40d5ee8e4c9c87e3c4b689f92610 = $(`<div id="html_c10e40d5ee8e4c9c87e3c4b689f92610" style="width: 100.0%; height: 100.0%;">Edgewater Park, Bronx</div>`)[0];
+            popup_3e1b67d5278f4f4dab74cf676475f5dc.setContent(html_c10e40d5ee8e4c9c87e3c4b689f92610);
+        
+
+        circle_marker_ad89eee5b04d4c8b9350c2b8e6a9186e.bindPopup(popup_3e1b67d5278f4f4dab74cf676475f5dc)
+        ;
+
+        
+    
+    
+            var circle_marker_ce392b71771749a6a7bd43f019bfbba5 = L.circleMarker(
+                [40.82198611816349, -73.81388514428619],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_b7218e6d52fc4325a08503d57f3b6965 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_169d655715004f0c8aa2ec6ab604f438 = $(`<div id="html_169d655715004f0c8aa2ec6ab604f438" style="width: 100.0%; height: 100.0%;">Edgewater Park, Bronx</div>`)[0];
+            popup_b7218e6d52fc4325a08503d57f3b6965.setContent(html_169d655715004f0c8aa2ec6ab604f438);
+        
+
+        circle_marker_ce392b71771749a6a7bd43f019bfbba5.bindPopup(popup_b7218e6d52fc4325a08503d57f3b6965)
+        ;
+
+        
+    
+    
+            var circle_marker_82343e6235534a4eb09b2c48b44303b8 = L.circleMarker(
+                [40.82198611816349, -73.81388514428619],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_1296351212a5408f8a12c4166aa72af0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2c110ff0465244f48f78ca80bd17f8e9 = $(`<div id="html_2c110ff0465244f48f78ca80bd17f8e9" style="width: 100.0%; height: 100.0%;">Edgewater Park, Bronx</div>`)[0];
+            popup_1296351212a5408f8a12c4166aa72af0.setContent(html_2c110ff0465244f48f78ca80bd17f8e9);
+        
+
+        circle_marker_82343e6235534a4eb09b2c48b44303b8.bindPopup(popup_1296351212a5408f8a12c4166aa72af0)
+        ;
+
+        
+    
+    
+            var circle_marker_8b314e0462844bc4b5fc9f8036e00681 = L.circleMarker(
+                [40.82198611816349, -73.81388514428619],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_49e356aca8574b68bc6152d669cd0290 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_519d37d6d2e74ac9b7cb99f054859689 = $(`<div id="html_519d37d6d2e74ac9b7cb99f054859689" style="width: 100.0%; height: 100.0%;">Edgewater Park, Bronx</div>`)[0];
+            popup_49e356aca8574b68bc6152d669cd0290.setContent(html_519d37d6d2e74ac9b7cb99f054859689);
+        
+
+        circle_marker_8b314e0462844bc4b5fc9f8036e00681.bindPopup(popup_49e356aca8574b68bc6152d669cd0290)
+        ;
+
+        
+    
+    
+            var circle_marker_a465699bc8004a39b56cd297d76db52c = L.circleMarker(
+                [40.82198611816349, -73.81388514428619],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_72f2c35b895e46c69a9e5beba160300a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_94bd770808e944cb8697d0f0625d67a8 = $(`<div id="html_94bd770808e944cb8697d0f0625d67a8" style="width: 100.0%; height: 100.0%;">Edgewater Park, Bronx</div>`)[0];
+            popup_72f2c35b895e46c69a9e5beba160300a.setContent(html_94bd770808e944cb8697d0f0625d67a8);
+        
+
+        circle_marker_a465699bc8004a39b56cd297d76db52c.bindPopup(popup_72f2c35b895e46c69a9e5beba160300a)
+        ;
+
+        
+    
+    
+            var circle_marker_4679bfabffe7427baabe5ff35f46cffa = L.circleMarker(
+                [40.82198611816349, -73.81388514428619],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_159dc9be536e4ce79c6eac506afed616 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b2388e130a1481891d75df8dd7c4092 = $(`<div id="html_0b2388e130a1481891d75df8dd7c4092" style="width: 100.0%; height: 100.0%;">Edgewater Park, Bronx</div>`)[0];
+            popup_159dc9be536e4ce79c6eac506afed616.setContent(html_0b2388e130a1481891d75df8dd7c4092);
+        
+
+        circle_marker_4679bfabffe7427baabe5ff35f46cffa.bindPopup(popup_159dc9be536e4ce79c6eac506afed616)
+        ;
+
+        
+    
+    
+            var circle_marker_04015f269aa4477c9773a4ea8f5d1fc3 = L.circleMarker(
+                [40.72526378216503, -73.84447500788983],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_f3c587423396483fb2356ee896c07d00 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e81bec806daf48319ed362cf873f6c5d = $(`<div id="html_e81bec806daf48319ed362cf873f6c5d" style="width: 100.0%; height: 100.0%;">Forest Hills, Queens</div>`)[0];
+            popup_f3c587423396483fb2356ee896c07d00.setContent(html_e81bec806daf48319ed362cf873f6c5d);
+        
+
+        circle_marker_04015f269aa4477c9773a4ea8f5d1fc3.bindPopup(popup_f3c587423396483fb2356ee896c07d00)
+        ;
+
+        
+    
+    
+            var circle_marker_8d2538a8fcf942029cce0fd58320b28f = L.circleMarker(
+                [40.72526378216503, -73.84447500788983],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_ab287de64e5845618e68a1b795d899d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9f1466b8b00e465cadb424b44c88f501 = $(`<div id="html_9f1466b8b00e465cadb424b44c88f501" style="width: 100.0%; height: 100.0%;">Forest Hills, Queens</div>`)[0];
+            popup_ab287de64e5845618e68a1b795d899d9.setContent(html_9f1466b8b00e465cadb424b44c88f501);
+        
+
+        circle_marker_8d2538a8fcf942029cce0fd58320b28f.bindPopup(popup_ab287de64e5845618e68a1b795d899d9)
+        ;
+
+        
+    
+    
+            var circle_marker_2e3cfc0315634301ab0b5fdcf58d1325 = L.circleMarker(
+                [40.72526378216503, -73.84447500788983],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_5484554fb6434557adbb4104042ffd76 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1bad58c66cf74fb1a38cde7be888641a = $(`<div id="html_1bad58c66cf74fb1a38cde7be888641a" style="width: 100.0%; height: 100.0%;">Forest Hills, Queens</div>`)[0];
+            popup_5484554fb6434557adbb4104042ffd76.setContent(html_1bad58c66cf74fb1a38cde7be888641a);
+        
+
+        circle_marker_2e3cfc0315634301ab0b5fdcf58d1325.bindPopup(popup_5484554fb6434557adbb4104042ffd76)
+        ;
+
+        
+    
+    
+            var circle_marker_8a706e59b3614fe5ae0fbf428026a564 = L.circleMarker(
+                [40.72526378216503, -73.84447500788983],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_3920d6ca8590477f8347f0424ebd3233 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_746216b49ad746c1aa00f0ced181fbc3 = $(`<div id="html_746216b49ad746c1aa00f0ced181fbc3" style="width: 100.0%; height: 100.0%;">Forest Hills, Queens</div>`)[0];
+            popup_3920d6ca8590477f8347f0424ebd3233.setContent(html_746216b49ad746c1aa00f0ced181fbc3);
+        
+
+        circle_marker_8a706e59b3614fe5ae0fbf428026a564.bindPopup(popup_3920d6ca8590477f8347f0424ebd3233)
+        ;
+
+        
+    
+    
+            var circle_marker_44a37efce301432992ad784076940af3 = L.circleMarker(
+                [40.72526378216503, -73.84447500788983],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_a96e1a744bc64d81aec4b3024f2c14cc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_41360e81020045a9be0cd1c4d1af386b = $(`<div id="html_41360e81020045a9be0cd1c4d1af386b" style="width: 100.0%; height: 100.0%;">Forest Hills, Queens</div>`)[0];
+            popup_a96e1a744bc64d81aec4b3024f2c14cc.setContent(html_41360e81020045a9be0cd1c4d1af386b);
+        
+
+        circle_marker_44a37efce301432992ad784076940af3.bindPopup(popup_a96e1a744bc64d81aec4b3024f2c14cc)
+        ;
+
+        
+    
+    
+            var circle_marker_11221be30b2a46ada5412824f0ebc8e6 = L.circleMarker(
+                [40.72526378216503, -73.84447500788983],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_c3045b21da02421ca65301c0371cb125 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_964f605447434b7296095012b65653a0 = $(`<div id="html_964f605447434b7296095012b65653a0" style="width: 100.0%; height: 100.0%;">Forest Hills, Queens</div>`)[0];
+            popup_c3045b21da02421ca65301c0371cb125.setContent(html_964f605447434b7296095012b65653a0);
+        
+
+        circle_marker_11221be30b2a46ada5412824f0ebc8e6.bindPopup(popup_c3045b21da02421ca65301c0371cb125)
+        ;
+
+        
+    
+    
+            var circle_marker_8922beab977e40789b97d07dcd30560c = L.circleMarker(
+                [40.90854282950666, -73.90453054908927],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_72e3594abc1743f18600bda8958e6bd7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_081d2ab571ca406a84178f5c1066b5d0 = $(`<div id="html_081d2ab571ca406a84178f5c1066b5d0" style="width: 100.0%; height: 100.0%;">North Riverdale, Bronx</div>`)[0];
+            popup_72e3594abc1743f18600bda8958e6bd7.setContent(html_081d2ab571ca406a84178f5c1066b5d0);
+        
+
+        circle_marker_8922beab977e40789b97d07dcd30560c.bindPopup(popup_72e3594abc1743f18600bda8958e6bd7)
+        ;
+
+        
+    
+    
+            var circle_marker_236232c14a0a40dfa33a6b004b70574a = L.circleMarker(
+                [40.90854282950666, -73.90453054908927],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_e4ece846a771407396dd5268925b32a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb21a57fa8714727a28fd0ee537bd670 = $(`<div id="html_cb21a57fa8714727a28fd0ee537bd670" style="width: 100.0%; height: 100.0%;">North Riverdale, Bronx</div>`)[0];
+            popup_e4ece846a771407396dd5268925b32a2.setContent(html_cb21a57fa8714727a28fd0ee537bd670);
+        
+
+        circle_marker_236232c14a0a40dfa33a6b004b70574a.bindPopup(popup_e4ece846a771407396dd5268925b32a2)
+        ;
+
+        
+    
+    
+            var circle_marker_f331a38e40264c7fadf94faa9c6ce668 = L.circleMarker(
+                [40.90854282950666, -73.90453054908927],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_b8a7a991471645acbc9df81bd6f0904d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b1be5b0e78e1404da0b19c69a507935a = $(`<div id="html_b1be5b0e78e1404da0b19c69a507935a" style="width: 100.0%; height: 100.0%;">North Riverdale, Bronx</div>`)[0];
+            popup_b8a7a991471645acbc9df81bd6f0904d.setContent(html_b1be5b0e78e1404da0b19c69a507935a);
+        
+
+        circle_marker_f331a38e40264c7fadf94faa9c6ce668.bindPopup(popup_b8a7a991471645acbc9df81bd6f0904d)
+        ;
+
+        
+    
+    
+            var circle_marker_e13ec7ba04c343008335dc0b8b389db2 = L.circleMarker(
+                [40.90854282950666, -73.90453054908927],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_6ef44d1858d74c4d83a548ef6405480e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c22a4c964df14ab290223e4fbd9c6900 = $(`<div id="html_c22a4c964df14ab290223e4fbd9c6900" style="width: 100.0%; height: 100.0%;">North Riverdale, Bronx</div>`)[0];
+            popup_6ef44d1858d74c4d83a548ef6405480e.setContent(html_c22a4c964df14ab290223e4fbd9c6900);
+        
+
+        circle_marker_e13ec7ba04c343008335dc0b8b389db2.bindPopup(popup_6ef44d1858d74c4d83a548ef6405480e)
+        ;
+
+        
+    
+    
+            var circle_marker_af7d83f5e774423f9242c559d15b1715 = L.circleMarker(
+                [40.90854282950666, -73.90453054908927],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_e091ae728f57436191c8f7497df81bb7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f07801f871324fee8c832287cd57d3e4 = $(`<div id="html_f07801f871324fee8c832287cd57d3e4" style="width: 100.0%; height: 100.0%;">North Riverdale, Bronx</div>`)[0];
+            popup_e091ae728f57436191c8f7497df81bb7.setContent(html_f07801f871324fee8c832287cd57d3e4);
+        
+
+        circle_marker_af7d83f5e774423f9242c559d15b1715.bindPopup(popup_e091ae728f57436191c8f7497df81bb7)
+        ;
+
+        
+    
+    
+            var circle_marker_3b6958e479a849279696ed2ae4952139 = L.circleMarker(
+                [40.76215960576283, -73.94916769227953],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_d736f3ba7414433f9b96a8a89644ee88 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b55514354994f3f9553dc50e8409c7b = $(`<div id="html_4b55514354994f3f9553dc50e8409c7b" style="width: 100.0%; height: 100.0%;">Roosevelt Island, Manhattan</div>`)[0];
+            popup_d736f3ba7414433f9b96a8a89644ee88.setContent(html_4b55514354994f3f9553dc50e8409c7b);
+        
+
+        circle_marker_3b6958e479a849279696ed2ae4952139.bindPopup(popup_d736f3ba7414433f9b96a8a89644ee88)
+        ;
+
+        
+    
+    
+            var circle_marker_ba2c9438ad0744c6b4e2d580e4efc80b = L.circleMarker(
+                [40.76215960576283, -73.94916769227953],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_e074251b5810404495f3d2e9cde190c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_191cbf60725640339fb71c66961291da = $(`<div id="html_191cbf60725640339fb71c66961291da" style="width: 100.0%; height: 100.0%;">Roosevelt Island, Manhattan</div>`)[0];
+            popup_e074251b5810404495f3d2e9cde190c8.setContent(html_191cbf60725640339fb71c66961291da);
+        
+
+        circle_marker_ba2c9438ad0744c6b4e2d580e4efc80b.bindPopup(popup_e074251b5810404495f3d2e9cde190c8)
+        ;
+
+        
+    
+    
+            var circle_marker_4a67c646f78c4988acd0570dd81cf365 = L.circleMarker(
+                [40.76215960576283, -73.94916769227953],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_79f6ecccfdd040dbac2de03cfb692181 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ff30c04283f425398c5c9d0dadcbead = $(`<div id="html_6ff30c04283f425398c5c9d0dadcbead" style="width: 100.0%; height: 100.0%;">Roosevelt Island, Manhattan</div>`)[0];
+            popup_79f6ecccfdd040dbac2de03cfb692181.setContent(html_6ff30c04283f425398c5c9d0dadcbead);
+        
+
+        circle_marker_4a67c646f78c4988acd0570dd81cf365.bindPopup(popup_79f6ecccfdd040dbac2de03cfb692181)
+        ;
+
+        
+    
+    
+            var circle_marker_94326bcb59b24672a97bf81a39bc6505 = L.circleMarker(
+                [40.826579516869224, -73.82620275994074],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_19513a55beb641bab01593355758bdfd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dbec8bf796724d0884cf446309abfaf5 = $(`<div id="html_dbec8bf796724d0884cf446309abfaf5" style="width: 100.0%; height: 100.0%;">Schuylerville, Bronx</div>`)[0];
+            popup_19513a55beb641bab01593355758bdfd.setContent(html_dbec8bf796724d0884cf446309abfaf5);
+        
+
+        circle_marker_94326bcb59b24672a97bf81a39bc6505.bindPopup(popup_19513a55beb641bab01593355758bdfd)
+        ;
+
+        
+    
+    
+            var circle_marker_45047c240c9b48149304497728036204 = L.circleMarker(
+                [40.826579516869224, -73.82620275994074],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_bd5eaf715add4cb6bb1492f48c1faf64 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cc0f96a1eec549de9baa630374772a64 = $(`<div id="html_cc0f96a1eec549de9baa630374772a64" style="width: 100.0%; height: 100.0%;">Schuylerville, Bronx</div>`)[0];
+            popup_bd5eaf715add4cb6bb1492f48c1faf64.setContent(html_cc0f96a1eec549de9baa630374772a64);
+        
+
+        circle_marker_45047c240c9b48149304497728036204.bindPopup(popup_bd5eaf715add4cb6bb1492f48c1faf64)
+        ;
+
+        
+    
+    
+            var circle_marker_cf41adf172e1478ebf1a853b08c49c5d = L.circleMarker(
+                [40.826579516869224, -73.82620275994074],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_cd2797b004374ef0856213f0c3990904 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96a9a1fee9e34134a85b85d807c8982f = $(`<div id="html_96a9a1fee9e34134a85b85d807c8982f" style="width: 100.0%; height: 100.0%;">Schuylerville, Bronx</div>`)[0];
+            popup_cd2797b004374ef0856213f0c3990904.setContent(html_96a9a1fee9e34134a85b85d807c8982f);
+        
+
+        circle_marker_cf41adf172e1478ebf1a853b08c49c5d.bindPopup(popup_cd2797b004374ef0856213f0c3990904)
+        ;
+
+        
+    
+    
+            var circle_marker_bf03849888c6423788078a4c8dc920be = L.circleMarker(
+                [40.826579516869224, -73.82620275994074],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_76a1b0001a174f968df05fa367663f85 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_298a2b87656d4bddae39fed7d9ded17d = $(`<div id="html_298a2b87656d4bddae39fed7d9ded17d" style="width: 100.0%; height: 100.0%;">Schuylerville, Bronx</div>`)[0];
+            popup_76a1b0001a174f968df05fa367663f85.setContent(html_298a2b87656d4bddae39fed7d9ded17d);
+        
+
+        circle_marker_bf03849888c6423788078a4c8dc920be.bindPopup(popup_76a1b0001a174f968df05fa367663f85)
+        ;
+
+        
+    
+    
+            var circle_marker_b4c5fd6930834a99b092ddd65da2b01c = L.circleMarker(
+                [40.88139497727086, -73.91719048210393],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_51cc7fd603bb41a795dfc69a51762283 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_12924be245764bf9ae06af299deb0ecc = $(`<div id="html_12924be245764bf9ae06af299deb0ecc" style="width: 100.0%; height: 100.0%;">Spuyten Duyvil, Bronx</div>`)[0];
+            popup_51cc7fd603bb41a795dfc69a51762283.setContent(html_12924be245764bf9ae06af299deb0ecc);
+        
+
+        circle_marker_b4c5fd6930834a99b092ddd65da2b01c.bindPopup(popup_51cc7fd603bb41a795dfc69a51762283)
+        ;
+
+        
+    
+    
+            var circle_marker_e03ffd41149b4379a869078172101290 = L.circleMarker(
+                [40.730999554770605, -73.97405170469203],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_b3b0c181e53d46fd8cecaca9b054b355 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3966eafa04be48d5a20545eb19483766 = $(`<div id="html_3966eafa04be48d5a20545eb19483766" style="width: 100.0%; height: 100.0%;">Stuyvesant Town, Manhattan</div>`)[0];
+            popup_b3b0c181e53d46fd8cecaca9b054b355.setContent(html_3966eafa04be48d5a20545eb19483766);
+        
+
+        circle_marker_e03ffd41149b4379a869078172101290.bindPopup(popup_b3b0c181e53d46fd8cecaca9b054b355)
+        ;
+
+        
+    
+    
+            var circle_marker_b6776a02942e4be4bd504688959b04a8 = L.circleMarker(
+                [40.815109258040046, -73.81635002158441],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_dd27db97ffbc490bb667af772ddc75d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe98563ae3724147bbabe2ed2fd660a6 = $(`<div id="html_fe98563ae3724147bbabe2ed2fd660a6" style="width: 100.0%; height: 100.0%;">Throgs Neck, Bronx</div>`)[0];
+            popup_dd27db97ffbc490bb667af772ddc75d8.setContent(html_fe98563ae3724147bbabe2ed2fd660a6);
+        
+
+        circle_marker_b6776a02942e4be4bd504688959b04a8.bindPopup(popup_dd27db97ffbc490bb667af772ddc75d8)
+        ;
+
+        
+    
+    
+            var circle_marker_4297efa37ee74dbeb7087443623e8c26 = L.circleMarker(
+                [40.815109258040046, -73.81635002158441],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_5a70502c77494cd8be426868bc70bf45 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f56c64eb09584a318f5b4bf1ecbcac9b = $(`<div id="html_f56c64eb09584a318f5b4bf1ecbcac9b" style="width: 100.0%; height: 100.0%;">Throgs Neck, Bronx</div>`)[0];
+            popup_5a70502c77494cd8be426868bc70bf45.setContent(html_f56c64eb09584a318f5b4bf1ecbcac9b);
+        
+
+        circle_marker_4297efa37ee74dbeb7087443623e8c26.bindPopup(popup_5a70502c77494cd8be426868bc70bf45)
+        ;
+
+        
+    
+    
+            var circle_marker_ec4c9d81f48c45228bedf8097b53d417 = L.circleMarker(
+                [40.815109258040046, -73.81635002158441],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_d8d669ccde6244e3b894fb4ac59a2136 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27a53b40a9bf4109b84df9f7d2a43db3 = $(`<div id="html_27a53b40a9bf4109b84df9f7d2a43db3" style="width: 100.0%; height: 100.0%;">Throgs Neck, Bronx</div>`)[0];
+            popup_d8d669ccde6244e3b894fb4ac59a2136.setContent(html_27a53b40a9bf4109b84df9f7d2a43db3);
+        
+
+        circle_marker_ec4c9d81f48c45228bedf8097b53d417.bindPopup(popup_d8d669ccde6244e3b894fb4ac59a2136)
+        ;
+
+        
+    
+    
+            var circle_marker_153c53d57e73433881f19b7d2cecb359 = L.circleMarker(
+                [40.819391233745925, -73.81729767562672],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_a8b64ff1744746a3abca54b70b2d1708 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e3a66f4df9dc4ca59fa86f3eea012dcc = $(`<div id="html_e3a66f4df9dc4ca59fa86f3eea012dcc" style="width: 100.0%; height: 100.0%;">Muscle Maker Grill_1403, Edgewater Park, American Restaurant</div>`)[0];
+            popup_a8b64ff1744746a3abca54b70b2d1708.setContent(html_e3a66f4df9dc4ca59fa86f3eea012dcc);
+        
+
+        circle_marker_153c53d57e73433881f19b7d2cecb359.bindPopup(popup_a8b64ff1744746a3abca54b70b2d1708)
+        ;
+
+        
+    
+    
+            var circle_marker_257f2b3709e148f3b79fd6d4d8d9cac2 = L.circleMarker(
+                [40.82311888943028, -73.81940281496017],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_716e935a8ade445f9e7f8c6fa19afb81 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb4ee03ac8014df588b2dd776bd8879d = $(`<div id="html_bb4ee03ac8014df588b2dd776bd8879d" style="width: 100.0%; height: 100.0%;">Patricia&#39;s of Tremont_1404, Edgewater Park, Italian Restaurant</div>`)[0];
+            popup_716e935a8ade445f9e7f8c6fa19afb81.setContent(html_bb4ee03ac8014df588b2dd776bd8879d);
+        
+
+        circle_marker_257f2b3709e148f3b79fd6d4d8d9cac2.bindPopup(popup_716e935a8ade445f9e7f8c6fa19afb81)
+        ;
+
+        
+    
+    
+            var circle_marker_911b777898ce478ab28b41d4f7bd60d5 = L.circleMarker(
+                [40.81887820776004, -73.81679306899113],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_715ef9f2eb24424eaf1ce26ce2a68cde = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d5482a65cf44d59a8798b52f690af6f = $(`<div id="html_0d5482a65cf44d59a8798b52f690af6f" style="width: 100.0%; height: 100.0%;">Green Dragon_1405, Edgewater Park, Asian Restaurant</div>`)[0];
+            popup_715ef9f2eb24424eaf1ce26ce2a68cde.setContent(html_0d5482a65cf44d59a8798b52f690af6f);
+        
+
+        circle_marker_911b777898ce478ab28b41d4f7bd60d5.bindPopup(popup_715ef9f2eb24424eaf1ce26ce2a68cde)
+        ;
+
+        
+    
+    
+            var circle_marker_12385a7dd1ae4396a857070dc3933b89 = L.circleMarker(
+                [40.819222257989786, -73.81760066505247],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_a312b42fd4a24710b4e357daaed02819 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_705d9c7dfd5f4502baf1510ac07fe38b = $(`<div id="html_705d9c7dfd5f4502baf1510ac07fe38b" style="width: 100.0%; height: 100.0%;">Tosca Marquee_1406, Edgewater Park, Italian Restaurant</div>`)[0];
+            popup_a312b42fd4a24710b4e357daaed02819.setContent(html_705d9c7dfd5f4502baf1510ac07fe38b);
+        
+
+        circle_marker_12385a7dd1ae4396a857070dc3933b89.bindPopup(popup_a312b42fd4a24710b4e357daaed02819)
+        ;
+
+        
+    
+    
+            var circle_marker_4fecbc0a0dbb473b88eb5013c2de75be = L.circleMarker(
+                [40.82039946759965, -73.8177024901674],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_a0b7b6d373d0415b84a364f43593de7d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea8232af644c4ad287a157b9af875962 = $(`<div id="html_ea8232af644c4ad287a157b9af875962" style="width: 100.0%; height: 100.0%;">Spoto&#39;s Italian Restaurant_1407, Edgewater Park, Italian Restaurant</div>`)[0];
+            popup_a0b7b6d373d0415b84a364f43593de7d.setContent(html_ea8232af644c4ad287a157b9af875962);
+        
+
+        circle_marker_4fecbc0a0dbb473b88eb5013c2de75be.bindPopup(popup_a0b7b6d373d0415b84a364f43593de7d)
+        ;
+
+        
+    
+    
+            var circle_marker_4aee405119ef4398a691d28a25355303 = L.circleMarker(
+                [40.821230910311535, -73.81874315720901],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_18b35959124b4d85992822f5566e825c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe1f105003af43f0baba3c7a28a6da44 = $(`<div id="html_fe1f105003af43f0baba3c7a28a6da44" style="width: 100.0%; height: 100.0%;">Rino&#39;s Italian Restaurant_1408, Edgewater Park, Italian Restaurant</div>`)[0];
+            popup_18b35959124b4d85992822f5566e825c.setContent(html_fe1f105003af43f0baba3c7a28a6da44);
+        
+
+        circle_marker_4aee405119ef4398a691d28a25355303.bindPopup(popup_18b35959124b4d85992822f5566e825c)
+        ;
+
+        
+    
+    
+            var circle_marker_610d1fb9934e40539e78af54a64c6d5a = L.circleMarker(
+                [40.81877566666667, -73.81689988333333],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_166c2f9e001848f3a32fd5971287e4fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a4e08f340a5c4ad9a23170abcda2d269 = $(`<div id="html_a4e08f340a5c4ad9a23170abcda2d269" style="width: 100.0%; height: 100.0%;">New Green Dragon_1409, Edgewater Park, Japanese Restaurant</div>`)[0];
+            popup_166c2f9e001848f3a32fd5971287e4fa.setContent(html_a4e08f340a5c4ad9a23170abcda2d269);
+        
+
+        circle_marker_610d1fb9934e40539e78af54a64c6d5a.bindPopup(popup_166c2f9e001848f3a32fd5971287e4fa)
+        ;
+
+        
+    
+    
+            var circle_marker_ab23a6c20845404885e0dad16929edce = L.circleMarker(
+                [40.818632524957096, -73.8168725526981],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_336f3d94a3b440dc80236934bf12d0a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1dc168d053cf408280058d14149b213f = $(`<div id="html_1dc168d053cf408280058d14149b213f" style="width: 100.0%; height: 100.0%;">Hawaii Chinese Kitchen_1410, Edgewater Park, Chinese Restaurant</div>`)[0];
+            popup_336f3d94a3b440dc80236934bf12d0a5.setContent(html_1dc168d053cf408280058d14149b213f);
+        
+
+        circle_marker_ab23a6c20845404885e0dad16929edce.bindPopup(popup_336f3d94a3b440dc80236934bf12d0a5)
+        ;
+
+        
+    
+    
+            var circle_marker_3161b5ec81e64c6f9af8ca1a0c8fa39a = L.circleMarker(
+                [40.72106157925685, -73.84543184469939],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_9c8d6670bd7e498da231ca75ff487c93 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6194cfc1922b4c189a0724dc9e9d6a8c = $(`<div id="html_6194cfc1922b4c189a0724dc9e9d6a8c" style="width: 100.0%; height: 100.0%;">Bangkok Cuisine_1482, Forest Hills, Thai Restaurant</div>`)[0];
+            popup_9c8d6670bd7e498da231ca75ff487c93.setContent(html_6194cfc1922b4c189a0724dc9e9d6a8c);
+        
+
+        circle_marker_3161b5ec81e64c6f9af8ca1a0c8fa39a.bindPopup(popup_9c8d6670bd7e498da231ca75ff487c93)
+        ;
+
+        
+    
+    
+            var circle_marker_761bca1510654e5592b43e05c0916b4a = L.circleMarker(
+                [40.724682476163146, -73.85000512822592],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_3c5261154fe24880b33c4ba0be17a39f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d2aaf3e88438441eb6820de3fbf73853 = $(`<div id="html_d2aaf3e88438441eb6820de3fbf73853" style="width: 100.0%; height: 100.0%;">Tu Casa Restaurant_1483, Forest Hills, Peruvian Restaurant</div>`)[0];
+            popup_3c5261154fe24880b33c4ba0be17a39f.setContent(html_d2aaf3e88438441eb6820de3fbf73853);
+        
+
+        circle_marker_761bca1510654e5592b43e05c0916b4a.bindPopup(popup_3c5261154fe24880b33c4ba0be17a39f)
+        ;
+
+        
+    
+    
+            var circle_marker_a77153f4f0c94203b30bf0399b56f36a = L.circleMarker(
+                [40.72359643754588, -73.8479683806168],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_d98b6ce0811142e59831e667eccbc606 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9f8ba98df2cc4ca182ed1d894768b800 = $(`<div id="html_9f8ba98df2cc4ca182ed1d894768b800" style="width: 100.0%; height: 100.0%;">Great Wall Chinese Restaurant_1484, Forest Hills, Chinese Restaurant</div>`)[0];
+            popup_d98b6ce0811142e59831e667eccbc606.setContent(html_9f8ba98df2cc4ca182ed1d894768b800);
+        
+
+        circle_marker_a77153f4f0c94203b30bf0399b56f36a.bindPopup(popup_d98b6ce0811142e59831e667eccbc606)
+        ;
+
+        
+    
+    
+            var circle_marker_8a1ef5eeb3b04338a0029a197854406f = L.circleMarker(
+                [40.72098302397724, -73.84543560865858],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_ec916ae79476473786e2fe6ad97861b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e417a4dcfc654191bcfac186004a9c49 = $(`<div id="html_e417a4dcfc654191bcfac186004a9c49" style="width: 100.0%; height: 100.0%;">MoCA Asian Bistro_1485, Forest Hills, Asian Restaurant</div>`)[0];
+            popup_ec916ae79476473786e2fe6ad97861b8.setContent(html_e417a4dcfc654191bcfac186004a9c49);
+        
+
+        circle_marker_8a1ef5eeb3b04338a0029a197854406f.bindPopup(popup_ec916ae79476473786e2fe6ad97861b8)
+        ;
+
+        
+    
+    
+            var circle_marker_b5bb934472e941f0982047cae1051693 = L.circleMarker(
+                [40.72472006801557, -73.85001317851223],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_1d7941bd06434e7997d6ee3e58b39b86 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e746020b399e4d8fa80776dfdd3d5e53 = $(`<div id="html_e746020b399e4d8fa80776dfdd3d5e53" style="width: 100.0%; height: 100.0%;">Thai Pot_1486, Forest Hills, Thai Restaurant</div>`)[0];
+            popup_1d7941bd06434e7997d6ee3e58b39b86.setContent(html_e746020b399e4d8fa80776dfdd3d5e53);
+        
+
+        circle_marker_b5bb934472e941f0982047cae1051693.bindPopup(popup_1d7941bd06434e7997d6ee3e58b39b86)
+        ;
+
+        
+    
+    
+            var circle_marker_67cbd3d5611e476f8b563fe1647a567d = L.circleMarker(
+                [40.720852859554014, -73.84561377044857],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_e7a4ae1526e641f9aa207a700811d7a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_180eb607364c4a78b66d8d313f7df1e3 = $(`<div id="html_180eb607364c4a78b66d8d313f7df1e3" style="width: 100.0%; height: 100.0%;">Numero 28_1487, Forest Hills, Italian Restaurant</div>`)[0];
+            popup_e7a4ae1526e641f9aa207a700811d7a6.setContent(html_180eb607364c4a78b66d8d313f7df1e3);
+        
+
+        circle_marker_67cbd3d5611e476f8b563fe1647a567d.bindPopup(popup_e7a4ae1526e641f9aa207a700811d7a6)
+        ;
+
+        
+    
+    
+            var circle_marker_3abbe82828014adeab6d580296dfe06b = L.circleMarker(
+                [40.90567203906053, -73.90430870547758],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_9492ae6f392948f6a18deff6a71a265e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_809d630d75194d36b18060b01bf615d1 = $(`<div id="html_809d630d75194d36b18060b01bf615d1" style="width: 100.0%; height: 100.0%;">Tokyo House_2131, North Riverdale, Sushi Restaurant</div>`)[0];
+            popup_9492ae6f392948f6a18deff6a71a265e.setContent(html_809d630d75194d36b18060b01bf615d1);
+        
+
+        circle_marker_3abbe82828014adeab6d580296dfe06b.bindPopup(popup_9492ae6f392948f6a18deff6a71a265e)
+        ;
+
+        
+    
+    
+            var circle_marker_fef73815369a43f894ad9a716a359677 = L.circleMarker(
+                [40.906566049541226, -73.90439723485366],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_ebcba6c61028414283f21572eaa8f10c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a6dce91e5c164c45b31ba47586202042 = $(`<div id="html_a6dce91e5c164c45b31ba47586202042" style="width: 100.0%; height: 100.0%;">Carlos &amp; Gabby&#39;s - Riverdale_2132, North Riverdale, Mexican Restaurant</div>`)[0];
+            popup_ebcba6c61028414283f21572eaa8f10c.setContent(html_a6dce91e5c164c45b31ba47586202042);
+        
+
+        circle_marker_fef73815369a43f894ad9a716a359677.bindPopup(popup_ebcba6c61028414283f21572eaa8f10c)
+        ;
+
+        
+    
+    
+            var circle_marker_d2c829623c40423d840cdb4349e16d83 = L.circleMarker(
+                [40.9054667242996, -73.90042336967397],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_fd7984169a5a46c5942bb9b153bf87c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6265d55b997441519609605f29a7275b = $(`<div id="html_6265d55b997441519609605f29a7275b" style="width: 100.0%; height: 100.0%;">Beccofino_2133, North Riverdale, Italian Restaurant</div>`)[0];
+            popup_fd7984169a5a46c5942bb9b153bf87c9.setContent(html_6265d55b997441519609605f29a7275b);
+        
+
+        circle_marker_d2c829623c40423d840cdb4349e16d83.bindPopup(popup_fd7984169a5a46c5942bb9b153bf87c9)
+        ;
+
+        
+    
+    
+            var circle_marker_b373d8512be241da9768ee419334917a = L.circleMarker(
+                [40.906483057524646, -73.90396530525271],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_f00d6741b1d744a3959bd8376deac954 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17bbeac1a38840b3a6df84a7766d6c13 = $(`<div id="html_17bbeac1a38840b3a6df84a7766d6c13" style="width: 100.0%; height: 100.0%;">Madison&#39;s_2134, North Riverdale, Italian Restaurant</div>`)[0];
+            popup_f00d6741b1d744a3959bd8376deac954.setContent(html_17bbeac1a38840b3a6df84a7766d6c13);
+        
+
+        circle_marker_b373d8512be241da9768ee419334917a.bindPopup(popup_f00d6741b1d744a3959bd8376deac954)
+        ;
+
+        
+    
+    
+            var circle_marker_98c93fb88773435289fb4f5ef9abec51 = L.circleMarker(
+                [40.905688762629616, -73.90429772559948],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_9d2101eed34c48c890e574f41bf0c89b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_389630301d0b49abbe6b0bedce5cf8ea = $(`<div id="html_389630301d0b49abbe6b0bedce5cf8ea" style="width: 100.0%; height: 100.0%;">Golden Phoenix Chinese Restaurant_2135, North Riverdale, Chinese Restaurant</div>`)[0];
+            popup_9d2101eed34c48c890e574f41bf0c89b.setContent(html_389630301d0b49abbe6b0bedce5cf8ea);
+        
+
+        circle_marker_98c93fb88773435289fb4f5ef9abec51.bindPopup(popup_9d2101eed34c48c890e574f41bf0c89b)
+        ;
+
+        
+    
+    
+            var circle_marker_dcc770fa00934f80afd311c8058312e6 = L.circleMarker(
+                [40.761914658540825, -73.94996590025112],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_0605cb6171ad4915b3ce5ac6b670f05d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_599fb2e706a746bbb86b54870e1d63c7 = $(`<div id="html_599fb2e706a746bbb86b54870e1d63c7" style="width: 100.0%; height: 100.0%;">NISI_2332, Roosevelt Island, Greek Restaurant</div>`)[0];
+            popup_0605cb6171ad4915b3ce5ac6b670f05d.setContent(html_599fb2e706a746bbb86b54870e1d63c7);
+        
+
+        circle_marker_dcc770fa00934f80afd311c8058312e6.bindPopup(popup_0605cb6171ad4915b3ce5ac6b670f05d)
+        ;
+
+        
+    
+    
+            var circle_marker_417abdcdeabf474c87573db4b44b6239 = L.circleMarker(
+                [40.75896648955897, -73.95244084627487],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_ca05fb080b85464f9ef184b7f1362c2f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_94d9aa2e34264065831fb5f3530e4a01 = $(`<div id="html_94d9aa2e34264065831fb5f3530e4a01" style="width: 100.0%; height: 100.0%;">Fuji East_2333, Roosevelt Island, Japanese Restaurant</div>`)[0];
+            popup_ca05fb080b85464f9ef184b7f1362c2f.setContent(html_94d9aa2e34264065831fb5f3530e4a01);
+        
+
+        circle_marker_417abdcdeabf474c87573db4b44b6239.bindPopup(popup_ca05fb080b85464f9ef184b7f1362c2f)
+        ;
+
+        
+    
+    
+            var circle_marker_1662cbe6d0eb4c749490848f9d9647d0 = L.circleMarker(
+                [40.763136, -73.9488594],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_40286c4e2b794853a3a1f66dee4e4fe8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_568a8caf07f94c6dab15917fd86780f2 = $(`<div id="html_568a8caf07f94c6dab15917fd86780f2" style="width: 100.0%; height: 100.0%;">Bread and Butter Market_2334, Roosevelt Island, Restaurant</div>`)[0];
+            popup_40286c4e2b794853a3a1f66dee4e4fe8.setContent(html_568a8caf07f94c6dab15917fd86780f2);
+        
+
+        circle_marker_1662cbe6d0eb4c749490848f9d9647d0.bindPopup(popup_40286c4e2b794853a3a1f66dee4e4fe8)
+        ;
+
+        
+    
+    
+            var circle_marker_1d3ff9d982824add835296d4168309af = L.circleMarker(
+                [40.82595968425058, -73.82135166456301],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_697c2da40e414cb6a858efdcb59cb1fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e544c51377f494e858ac7b908cc6f69 = $(`<div id="html_7e544c51377f494e858ac7b908cc6f69" style="width: 100.0%; height: 100.0%;">Cabo_2347, Schuylerville, Mexican Restaurant</div>`)[0];
+            popup_697c2da40e414cb6a858efdcb59cb1fd.setContent(html_7e544c51377f494e858ac7b908cc6f69);
+        
+
+        circle_marker_1d3ff9d982824add835296d4168309af.bindPopup(popup_697c2da40e414cb6a858efdcb59cb1fd)
+        ;
+
+        
+    
+    
+            var circle_marker_577d4ffbdb0b4c8cb8f110383ad75e73 = L.circleMarker(
+                [40.83086249247354, -73.82638588514928],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_5db45b27f9be4986bbb647fc9efcce76 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75643542323c4fef91424fba15cdcd59 = $(`<div id="html_75643542323c4fef91424fba15cdcd59" style="width: 100.0%; height: 100.0%;">Legendary Bar and Restaurant_2348, Schuylerville, American Restaurant</div>`)[0];
+            popup_5db45b27f9be4986bbb647fc9efcce76.setContent(html_75643542323c4fef91424fba15cdcd59);
+        
+
+        circle_marker_577d4ffbdb0b4c8cb8f110383ad75e73.bindPopup(popup_5db45b27f9be4986bbb647fc9efcce76)
+        ;
+
+        
+    
+    
+            var circle_marker_5ddfa591a9fa4690ae02190c46b28c25 = L.circleMarker(
+                [40.82920250633281, -73.8268924774988],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_59554e0c09034e05a60ff3297603ff65 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1a18c28236054eebacae479ed30b9006 = $(`<div id="html_1a18c28236054eebacae479ed30b9006" style="width: 100.0%; height: 100.0%;">Taqueria Lupita_2349, Schuylerville, Mexican Restaurant</div>`)[0];
+            popup_59554e0c09034e05a60ff3297603ff65.setContent(html_1a18c28236054eebacae479ed30b9006);
+        
+
+        circle_marker_5ddfa591a9fa4690ae02190c46b28c25.bindPopup(popup_59554e0c09034e05a60ff3297603ff65)
+        ;
+
+        
+    
+    
+            var circle_marker_b6e631802fd447d7b4b246bf15a0ffb1 = L.circleMarker(
+                [40.82759966816098, -73.82364126470975],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_112ff7ff72c54c13b0c930904d67a7ef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ff7ed21103654903964298aef800d613 = $(`<div id="html_ff7ed21103654903964298aef800d613" style="width: 100.0%; height: 100.0%;">McDonald&#39;s_2350, Schuylerville, Fast Food Restaurant</div>`)[0];
+            popup_112ff7ff72c54c13b0c930904d67a7ef.setContent(html_ff7ed21103654903964298aef800d613);
+        
+
+        circle_marker_b6e631802fd447d7b4b246bf15a0ffb1.bindPopup(popup_112ff7ff72c54c13b0c930904d67a7ef)
+        ;
+
+        
+    
+    
+            var circle_marker_b5bd4044776a44d8b44a29d25fd68c33 = L.circleMarker(
+                [40.8787962348852, -73.91670090763066],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_7ea5e73e58884530aa7887299492fab6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_43b32c5242a34e289b2ba5575ee46c9b = $(`<div id="html_43b32c5242a34e289b2ba5575ee46c9b" style="width: 100.0%; height: 100.0%;">Siam Square_2398, Spuyten Duyvil, Thai Restaurant</div>`)[0];
+            popup_7ea5e73e58884530aa7887299492fab6.setContent(html_43b32c5242a34e289b2ba5575ee46c9b);
+        
+
+        circle_marker_b5bd4044776a44d8b44a29d25fd68c33.bindPopup(popup_7ea5e73e58884530aa7887299492fab6)
+        ;
+
+        
+    
+    
+            var circle_marker_ccd6a73efa4041e1bc0cff04b1b3058b = L.circleMarker(
+                [40.7348, -73.974526],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_e6ae1b5b08b446879af0d541f9730406 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_01e1ff60d41a49c5aea26c77612b6be8 = $(`<div id="html_01e1ff60d41a49c5aea26c77612b6be8" style="width: 100.0%; height: 100.0%;">Zum Kaboom_2420, Stuyvesant Town, German Restaurant</div>`)[0];
+            popup_e6ae1b5b08b446879af0d541f9730406.setContent(html_01e1ff60d41a49c5aea26c77612b6be8);
+        
+
+        circle_marker_ccd6a73efa4041e1bc0cff04b1b3058b.bindPopup(popup_e6ae1b5b08b446879af0d541f9730406)
+        ;
+
+        
+    
+    
+            var circle_marker_e0759101e0f3419d997d012093f782d7 = L.circleMarker(
+                [40.819391233745925, -73.81729767562672],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_f586975e673f4b658768b66dca731506 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d3c9ae12aa44d74bd1498f75acd4792 = $(`<div id="html_1d3c9ae12aa44d74bd1498f75acd4792" style="width: 100.0%; height: 100.0%;">Muscle Maker Grill_2453, Throgs Neck, American Restaurant</div>`)[0];
+            popup_f586975e673f4b658768b66dca731506.setContent(html_1d3c9ae12aa44d74bd1498f75acd4792);
+        
+
+        circle_marker_e0759101e0f3419d997d012093f782d7.bindPopup(popup_f586975e673f4b658768b66dca731506)
+        ;
+
+        
+    
+    
+            var circle_marker_e6f2b3f0f12b48f89953d1248f063a63 = L.circleMarker(
+                [40.81887820776004, -73.81679306899113],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_741e6eee61e347b5b831dad53cbebf40 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3925a67972554933b37f8d71f6f3f06d = $(`<div id="html_3925a67972554933b37f8d71f6f3f06d" style="width: 100.0%; height: 100.0%;">Green Dragon_2454, Throgs Neck, Asian Restaurant</div>`)[0];
+            popup_741e6eee61e347b5b831dad53cbebf40.setContent(html_3925a67972554933b37f8d71f6f3f06d);
+        
+
+        circle_marker_e6f2b3f0f12b48f89953d1248f063a63.bindPopup(popup_741e6eee61e347b5b831dad53cbebf40)
+        ;
+
+        
+    
+    
+            var circle_marker_dbc3f0aeb940416fbee1a756bb6c90df = L.circleMarker(
+                [40.819222257989786, -73.81760066505247],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8795bf5822704bf58f40559f830b429a);
+        
+    
+        var popup_bab971083add4da2a5e8fcb559e0bc22 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_65a3077e733b4a09ba23bce3f11b79a0 = $(`<div id="html_65a3077e733b4a09ba23bce3f11b79a0" style="width: 100.0%; height: 100.0%;">Tosca Marquee_2455, Throgs Neck, Italian Restaurant</div>`)[0];
+            popup_bab971083add4da2a5e8fcb559e0bc22.setContent(html_65a3077e733b4a09ba23bce3f11b79a0);
+        
+
+        circle_marker_dbc3f0aeb940416fbee1a756bb6c90df.bindPopup(popup_bab971083add4da2a5e8fcb559e0bc22)
+        ;
+
+        
+    
+</script>
